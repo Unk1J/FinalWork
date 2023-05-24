@@ -4,10 +4,10 @@ int main()
 {
 
 	setlocale(LC_ALL, "Russian");
-	int x;
+	int y;
 	printf("Введите число");
-	scanf_s("%d", &x);
-	if (x< -5 || x>-1)
+	scanf_s("%d", &y);
+	if (y< -5 || y>-1)
 	{
 		printf("Число подходит");
 	}
