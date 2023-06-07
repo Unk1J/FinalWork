@@ -5,15 +5,16 @@ int main()
 
 	setlocale(LC_ALL, "Russian");
 	int y;
-	printf("Введите число");
-	scanf_s("%d", &y);
+	cout<<"Введите число"<<endl;
+	cout << "проверка попадает ли y в промежуток (-5;-1)" << endl;
+	cin>>y;
 	if (y< -5 || y>-1)
 	{
-		printf("Число подходит");
+		cout << "Число подходит"<<endl;
 	}
 	else
 	{
-		printf("Число не подходит");
+		cout << "Число не подходит"<< endl;
 	}
 }
 
